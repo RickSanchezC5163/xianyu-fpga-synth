@@ -7,7 +7,7 @@
 [![FPGA](https://img.shields.io/badge/FPGA-Tang%20Mega%2060K-177D69)](docs/HARDWARE.md)
 [![Voices](https://img.shields.io/badge/Synthesis-32%20voices%20%C3%97%208%20partials-177D69)](rtl/audio)
 [![ESP32](https://img.shields.io/badge/Wireless-ESP32--S3-34495E)](firmware/esp32s3_score_bridge)
-[![License](https://img.shields.io/badge/License-PolyForm%20Noncommercial%201.0.0-blue)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](LICENSE)
 
 [快速开始](docs/BUILD.md) · [硬件连接](docs/HARDWARE.md) · [实现与验证](docs/VERIFICATION.md) · [作者与许可](AUTHORS.md)
 
@@ -102,6 +102,6 @@ S3 使用 ESP-IDF 6.1，网页为 React / TypeScript / Vite；FPGA 使用 Gowin 
 
 由 [RickSanchezC5163](https://github.com/RickSanchezC5163) 与 [CAOH1024](https://github.com/CAOH1024) 共同贡献。完整说明见 [AUTHORS.md](AUTHORS.md)。
 
-项目自有源码与文档采用 **PolyForm Noncommercial 1.0.0**。第三方代码保留原许可，不受本项目重新许可；见 [第三方声明](THIRD_PARTY_NOTICES.md) 和 [USB Host 声明](rtl/usb_host/README.md)。商业用途请先联系作者取得另行授权。
+项目自有源码与文档采用 **CC BY-NC-ND 4.0**。第三方代码保留原许可，不受本项目重新许可；见 [第三方声明](THIRD_PARTY_NOTICES.md) 和 [USB Host 声明](rtl/usb_host/README.md)。允许署名、非商业地分享原始内容；未经另行授权，不得传播改编版本。商业用途或改编版分发请联系作者取得另行授权。历史版本说明见 [许可说明](docs/LICENSING.md)。
 
 反馈问题时请提供板卡版本、构建版本、连接方式、复现步骤与日志；不要提交 Wi-Fi 密码、访问令牌或其他私人信息。

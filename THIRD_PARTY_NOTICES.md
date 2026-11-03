@@ -1,6 +1,6 @@
 # Third-party notices
 
-Project-authored files use PolyForm Noncommercial 1.0.0. Upstream files retain their original licenses. USB Host attribution and Apache-2.0 license are preserved in rtl/usb_host. ESP-IDF and vendor installers are not redistributed.
+Project-authored files use CC BY-NC-ND 4.0. Upstream files retain their original licenses. USB Host attribution and Apache-2.0 license are preserved in rtl/usb_host. ESP-IDF and vendor installers are not redistributed.
 
 The bundled web UI uses the following components; versions below are from the installed lockfile dependencies.
 
