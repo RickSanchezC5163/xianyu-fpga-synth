@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "songs": [
+    {
+      "id": 1,
+      "title": "原创入门练习",
+      "source_names": [],
+      "source_midi_bytes": 0,
+      "candidate_midi_bytes": 0,
+      "parts_total": 1,
+      "parts": [
+        {
+          "number": 1,
+          "blob": 0,
+          "bytes": 136,
+          "events": 16,
+          "bpm": 60,
+          "duration_ms": 15500,
+          "storage_title": "原创入门练习·01/01"
+        }
+      ],
+      "audition_pending": false,
+      "has_voice_gaps": false,
+      "mixed_voice": false
+    }
+  ],
+  "blobs": [
+    "WFMwMRAAPDAAAAAAAQAAAJAAAAAAAAAAwAAAAAQAAABQAQAAAAAAAIABAAAQAAAAEAIAAAAAAABAAgAAgAAAANACAAAAAAAAAAMAAIAAAACQAwAAAAAAAMADAAAQAAAAUAQAAAAAAACABAAABAAAABAFAAAAAAAAQAUAAAEAAADQBQAAAAAAAA=="
+  ]
+}

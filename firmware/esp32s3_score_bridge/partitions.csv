@@ -1,0 +1,5 @@
+# 保留与原项目一致的 NVS / 应用偏移；其余 Flash 留空，不自动擦除。
+# Name, Type, SubType, Offset, Size, Flags
+nvs, data, nvs, 0x9000, 0x20000,
+phy_init, data, phy, 0x29000, 0x1000,
+factory, app, factory, 0x30000, 0x1C0000,

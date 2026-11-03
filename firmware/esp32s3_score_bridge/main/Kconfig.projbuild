@@ -1,0 +1,28 @@
+menu "弦域 ESP32-S3 曲谱桥"
+config XY_AP_SSID
+    string "设备设置热点名称"
+    default "Xianyu-S3-Score"
+    help
+        手机首次配网时连接的热点，接入路由器后热点仍保留。
+        名称长度按 UTF-8 字节计算，必须为 1..32 字节。
+config XY_AP_PASSWORD
+    string "设置热点密码（8..63 字节）"
+    default "ChangeBeforeUse123"
+    help
+        可在此修改热点密码。路由器账号在网页填写，不需要写入源码。
+config XY_UART_TX_GPIO
+    int "UART1 TX：接 FPGA J9.7 / P16（wifi_rx）"
+    range 0 48
+    default 4
+    help
+        数值是 ESP GPIO 编号，不是排针序号。默认使用 GPIO4。
+        不要使用 USB 19/20、Flash/PSRAM 26..37、绑带 0/3/45/46
+        或 UART0 43/44。仍须检查开发板自己的外设占用。
+config XY_UART_RX_GPIO
+    int "UART1 RX：接 FPGA J9.8 / R17（wifi_tx）"
+    range 0 48
+    default 5
+    help
+        默认使用 GPIO5，与 FPGA TX 交叉连接，双方共地。
+        FPGA 信号为 3.3V，禁止接入 5V 串口信号。
+endmenu

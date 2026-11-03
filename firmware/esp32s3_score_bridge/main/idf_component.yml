@@ -1,0 +1,4 @@
+# ESP-IDF 6.1 的 JSON 库采用官方托管组件；首次编译需要访问组件仓库。
+dependencies:
+  idf: "==6.1.0"
+  espressif/cjson: "1.7.19~2"

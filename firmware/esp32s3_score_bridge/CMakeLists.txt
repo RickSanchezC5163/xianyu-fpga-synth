@@ -1,0 +1,11 @@
+# 独立的 ESP32-S3 工程；在 Linux 的 ESP-IDF 6.1.0 环境中构建。
+cmake_minimum_required(VERSION 3.22)
+set(IDF_TARGET "esp32s3" CACHE STRING "目标芯片")
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(xianyu_s3_score_bridge VERSION 1.0.0)
+if(NOT IDF_TARGET STREQUAL "esp32s3")
+    message(FATAL_ERROR "本工程仅支持 ESP32-S3，请使用 idf.py set-target esp32s3")
+endif()
+if(NOT IDF_VERSION_MAJOR EQUAL 6 OR NOT IDF_VERSION_MINOR EQUAL 1 OR NOT IDF_VERSION_PATCH EQUAL 0)
+    message(FATAL_ERROR "本工程要求 ESP-IDF 6.1.0（官方标签 v6.1）")
+endif()
