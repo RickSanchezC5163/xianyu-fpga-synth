@@ -11,9 +11,9 @@
 
 [快速开始](docs/BUILD.md) · [硬件连接](docs/HARDWARE.md) · [实现与验证](docs/VERIFICATION.md) · [作者与许可](AUTHORS.md)
 
-## 2026年全国大学生嵌入式芯片与系统设计竞赛——FPGA创新设计赛道
+<sub>2026年全国大学生嵌入式芯片与系统设计竞赛 · FPGA创新设计赛道 · 全国三等奖　<a href="assets/xianyu-poster.pdf">作品海报（PDF）</a></sub>
 
-**全国三等奖作品**
+![弦域电子合成器实物](assets/xianyu-prototype.png)
 
 </div>
 
