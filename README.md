@@ -2,10 +2,6 @@
 
 # 弦域 · Xianyu
 
-## 2026年全国大学生嵌入式芯片与系统设计竞赛——FPGA创新设计赛道
-
-**全国三等奖作品**
-
 **用 FPGA 逐样本生成声音，把演奏、表情控制与旋律练习连在一起。**
 
 [![FPGA](https://img.shields.io/badge/FPGA-Tang%20Mega%2060K-177D69)](docs/HARDWARE.md)
@@ -14,6 +10,10 @@
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](LICENSE)
 
 [快速开始](docs/BUILD.md) · [硬件连接](docs/HARDWARE.md) · [实现与验证](docs/VERIFICATION.md) · [作者与许可](AUTHORS.md)
+
+## 2026年全国大学生嵌入式芯片与系统设计竞赛——FPGA创新设计赛道
+
+**全国三等奖作品**
 
 </div>
 
